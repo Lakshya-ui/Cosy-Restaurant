@@ -1,0 +1,44 @@
+/* Add styles for the sign-up card */
+.signup-card {
+    width: 300px; /* Adjust width as needed */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 50px auto; /* Center the card */
+}
+
+.signup-card h1 {
+    text-align: center;
+}
+
+.signup-card form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-card label {
+    margin-bottom: 10px;
+}
+
+.signup-card input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-card button {
+    padding: 10px 20px;
+    background-color: #50ffb3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.signup-card button:hover {
+    background-color: #47ff87; /* Darker shade on hover */
+}
